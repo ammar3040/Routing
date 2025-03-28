@@ -1,0 +1,112 @@
+/* Form container styling */
+.form_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .form_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EDDCD9;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border: 2px solid #264143;
+    border-radius: 20px;
+    box-shadow: 3px 4px 0px 1px #E99F4C;
+  }
+  
+  .form_title {
+    color: #264143;
+    font-weight: 900;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  /* Form group styling */
+  .form_group {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 15px 0;
+    width: 100%;
+  }
+  
+  .form_label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #264143;
+  }
+  
+  /* Input field styling */
+  .form_style {
+    outline: none;
+    border: 2px solid #264143;
+    box-shadow: 3px 4px 0px 1px #E99F4C;
+    width: 100%;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #f8f9fa;
+  }
+  
+  .form_style:focus {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px #E99F4C;
+  }
+  
+  /* Checkbox and radio styling */
+  .hobbies_container, .gender_container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .checkbox_group, .radio_group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .checkbox_style, .radio_style {
+    accent-color: #DE5499;
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* Image preview styling */
+  .image_preview {
+    margin-top: 10px;
+    border: 2px solid #264143;
+    border-radius: 4px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  /* Button styling */
+  .submit_btn {
+    padding: 15px;
+    margin: 25px 0px;
+    width: 100%;
+    font-size: 15px;
+    background: #DE5499;
+    border-radius: 10px;
+    font-weight: 800;
+    box-shadow: 3px 3px 0px 0px #E99F4C;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .submit_btn:hover {
+    opacity: 0.9;
+    transform: translateY(2px);
+    box-shadow: 1px 2px 0px 0px #E99F4C;
+  }
